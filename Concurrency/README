@@ -10,3 +10,6 @@
 // shared variable (mySharedData)
 // At the end the value of mySharedData variable should be equal to the number
 // of threads.
+//
+// POSIX Threads, mutex, shared memory
+
