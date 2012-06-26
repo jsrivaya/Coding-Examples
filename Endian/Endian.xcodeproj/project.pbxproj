@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFEBC1F5159939B800EC82CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFEBC1F4159939B800EC82CC /* main.cpp */; };
+		CFEBC1F7159939B800EC82CC /* Endian.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CFEBC1F6159939B800EC82CC /* Endian.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFEBC1EE159939B800EC82CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CFEBC1F7159939B800EC82CC /* Endian.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFEBC1F0159939B800EC82CC /* Endian */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Endian; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEBC1F4159939B800EC82CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CFEBC1F6159939B800EC82CC /* Endian.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Endian.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEBC1ED159939B800EC82CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFEBC1E5159939B800EC82CC = {
+			isa = PBXGroup;
+			children = (
+				CFEBC1F3159939B800EC82CC /* Endian */,
+				CFEBC1F1159939B800EC82CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEBC1F1159939B800EC82CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBC1F0159939B800EC82CC /* Endian */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEBC1F3159939B800EC82CC /* Endian */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBC1F4159939B800EC82CC /* main.cpp */,
+				CFEBC1F6159939B800EC82CC /* Endian.1 */,
+			);
+			path = Endian;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEBC1EF159939B800EC82CC /* Endian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEBC1FA159939B800EC82CC /* Build configuration list for PBXNativeTarget "Endian" */;
+			buildPhases = (
+				CFEBC1EC159939B800EC82CC /* Sources */,
+				CFEBC1ED159939B800EC82CC /* Frameworks */,
+				CFEBC1EE159939B800EC82CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Endian;
+			productName = Endian;
+			productReference = CFEBC1F0159939B800EC82CC /* Endian */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEBC1E7159939B800EC82CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CFEBC1EA159939B800EC82CC /* Build configuration list for PBXProject "Endian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFEBC1E5159939B800EC82CC;
+			productRefGroup = CFEBC1F1159939B800EC82CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEBC1EF159939B800EC82CC /* Endian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEBC1EC159939B800EC82CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEBC1F5159939B800EC82CC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFEBC1F8159939B800EC82CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CFEBC1F9159939B800EC82CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CFEBC1FB159939B800EC82CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFEBC1FC159939B800EC82CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEBC1EA159939B800EC82CC /* Build configuration list for PBXProject "Endian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEBC1F8159939B800EC82CC /* Debug */,
+				CFEBC1F9159939B800EC82CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEBC1FA159939B800EC82CC /* Build configuration list for PBXNativeTarget "Endian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEBC1FB159939B800EC82CC /* Debug */,
+				CFEBC1FC159939B800EC82CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEBC1E7159939B800EC82CC /* Project object */;
+}
