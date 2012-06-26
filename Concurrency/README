@@ -1,0 +1,12 @@
+//  Concurrency
+//
+//  Created by JORGE SUAREZ RIVAYA on 6/25/12.
+//  Copyright (c) 2012 Trasgu. All rights reserved.
+//
+// this program pretends to be an example on how to use posix threads
+// mutex and shared memory to manipulate a shared resource
+// the experient is the next:
+// We will create 100 threads, each of them will increase by 1 the value of a
+// shared variable (mySharedData)
+// At the end the value of mySharedData variable should be equal to the number
+// of threads.
