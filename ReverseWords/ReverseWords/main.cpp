@@ -32,6 +32,8 @@ int main(int argc, const char * argv[])
     
     printf ("*** Reversed: %s\n", phrase);
     
+    free(phrase);
+    
     return 0;
 }
 
