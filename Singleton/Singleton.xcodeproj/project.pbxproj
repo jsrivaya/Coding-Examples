@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF31A3D315AFA56000B66F27 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF31A3D215AFA56000B66F27 /* main.cpp */; };
+		CF31A3D515AFA56000B66F27 /* Singleton.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF31A3D415AFA56000B66F27 /* Singleton.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF31A3CC15AFA56000B66F27 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CF31A3D515AFA56000B66F27 /* Singleton.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF31A3CE15AFA56000B66F27 /* Singleton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Singleton; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF31A3D215AFA56000B66F27 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF31A3D415AFA56000B66F27 /* Singleton.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Singleton.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF31A3CB15AFA56000B66F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF31A3C315AFA56000B66F27 = {
+			isa = PBXGroup;
+			children = (
+				CF31A3D115AFA56000B66F27 /* Singleton */,
+				CF31A3CF15AFA56000B66F27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF31A3CF15AFA56000B66F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF31A3CE15AFA56000B66F27 /* Singleton */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF31A3D115AFA56000B66F27 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				CF31A3D215AFA56000B66F27 /* main.cpp */,
+				CF31A3D415AFA56000B66F27 /* Singleton.1 */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF31A3CD15AFA56000B66F27 /* Singleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF31A3D815AFA56000B66F27 /* Build configuration list for PBXNativeTarget "Singleton" */;
+			buildPhases = (
+				CF31A3CA15AFA56000B66F27 /* Sources */,
+				CF31A3CB15AFA56000B66F27 /* Frameworks */,
+				CF31A3CC15AFA56000B66F27 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Singleton;
+			productName = Singleton;
+			productReference = CF31A3CE15AFA56000B66F27 /* Singleton */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF31A3C515AFA56000B66F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CF31A3C815AFA56000B66F27 /* Build configuration list for PBXProject "Singleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF31A3C315AFA56000B66F27;
+			productRefGroup = CF31A3CF15AFA56000B66F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF31A3CD15AFA56000B66F27 /* Singleton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF31A3CA15AFA56000B66F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF31A3D315AFA56000B66F27 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF31A3D615AFA56000B66F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF31A3D715AFA56000B66F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF31A3D915AFA56000B66F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF31A3DA15AFA56000B66F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF31A3C815AFA56000B66F27 /* Build configuration list for PBXProject "Singleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF31A3D615AFA56000B66F27 /* Debug */,
+				CF31A3D715AFA56000B66F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF31A3D815AFA56000B66F27 /* Build configuration list for PBXNativeTarget "Singleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF31A3D915AFA56000B66F27 /* Debug */,
+				CF31A3DA15AFA56000B66F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF31A3C515AFA56000B66F27 /* Project object */;
+}
